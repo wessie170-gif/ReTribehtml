@@ -1,0 +1,25 @@
+name: retribe
+description: ReTribe — Reclaim Humanity from social media & AI addiction
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  shared_preferences: ^2.3.0
+  supabase_flutter: ^2.8.0   # optional
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  # Web/PWA specific
+  assets:
+    - web/icons/
